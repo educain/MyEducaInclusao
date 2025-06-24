@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configurações"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Opção: Mudar Cor do Tema -->
+        <Button
+            android:id="@+id/btnMudarCorTema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎨 Mudar Cor do Tema"
+            android:backgroundTint="#ffffff"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Opção: Notificações -->
+        <Button
+            android:id="@+id/btnNotificacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔔 Notificações"
+            android:backgroundTint="#FFffff"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Opção: Alterar Senha -->
+        <Button
+            android:id="@+id/btnAlterarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 Alterar Senha"
+            android:backgroundTint="#ffffff"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Opção: Sair da Conta -->
+        <Button
+            android:id="@+id/btnSairConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚪 Sair da Conta"
+            android:backgroundTint="#ffffff"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Opção: Termos de Uso -->
+        <Button
+            android:id="@+id/btnTermosUso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Termos de Uso"
+            android:backgroundTint="#ffffff"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Opção: Sobre o App -->
+        <Button
+            android:id="@+id/btnSobreApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ℹ️ Sobre o App"
+            android:backgroundTint="#ffffff"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+</ScrollView>

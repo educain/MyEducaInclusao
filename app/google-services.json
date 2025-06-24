@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "616835409080",
+    "firebase_url": "https://myeducainclusao-default-rtdb.firebaseio.com",
+    "project_id": "myeducainclusao",
+    "storage_bucket": "myeducainclusao.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616835409080:android:b39ffc940ba0dbfe5d004d",
+        "android_client_info": {
+          "package_name": "com.example.myeducainclusao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo6nBMJ73WwAmMQbUf6XF_DgkGEUfecfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

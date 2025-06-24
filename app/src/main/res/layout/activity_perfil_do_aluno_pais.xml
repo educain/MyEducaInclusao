@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil do Aluno"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Foto do Aluno -->
+        <ImageView
+            android:id="@+id/imagePerfilAluno"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_perfil_aluno"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/borda_redonda"
+            android:padding="4dp"/>
+
+        <!-- Nome -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👦 Nome: João Pedro da Silva"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Idade -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎂 Idade: 8 anos"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Escola -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏫 Escola: Escola Municipal Inclusiva"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Turma -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏷️ Turma: 3º Ano - Turma A"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Responsáveis -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👨‍👩‍👧 Responsáveis: Maria Silva e José Silva"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Observações -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📌 Observações: Aluno com TEA, precisa de suporte na leitura."
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Botão: Editar Perfil -->
+        <Button
+            android:id="@+id/btnEditarPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✏️ Editar Perfil"
+            android:backgroundTint="#4FC3F7"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>

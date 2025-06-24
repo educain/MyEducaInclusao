@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU DO RESPONSÁVEL"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botão: Perfil do Aluno -->
+        <Button
+            android:id="@+id/btnPerfilAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👨‍👩‍👧 Perfil do Aluno"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão: Relatórios -->
+        <Button
+            android:id="@+id/btnRelatorios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📰 Relatórios do Professor"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão: Agenda Semanal -->
+        <Button
+            android:id="@+id/btnAgenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗓️ Agenda Semanal"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão: Enviar Mensagem -->
+        <Button
+            android:id="@+id/btnEnviarMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✉️ Enviar Mensagem ao Professor"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão: Tarefas do Aluno -->
+        <Button
+            android:id="@+id/btnTarefas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ Tarefas do Aluno"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão: Configurações -->
+        <Button
+            android:id="@+id/btnConfiguracoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Configurações"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

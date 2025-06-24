@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:padding="20dp">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Mensagem ao Professor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Campo de Texto -->
+    <EditText
+        android:id="@+id/editMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Digite sua mensagem aqui..."
+        android:textSize="16sp"
+        android:gravity="top|start"
+        android:padding="12dp" />
+
+    <!-- Botão Enviar -->
+    <Button
+        android:id="@+id/btnEnviarMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📨 Enviar Mensagem"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#64B5F6"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

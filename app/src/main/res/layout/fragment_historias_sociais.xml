@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="WRITE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Histórias Sociais"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botão: Turma da Mônica -->
+        <Button
+            android:id="@+id/btnMonica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Turma da Mônica"
+            android:textSize="18sp"
+            android:backgroundTint="#FFCC80"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Botão: Menino Maluquinho -->
+        <Button
+            android:id="@+id/btnMaluquinho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Menino Maluquinho"
+            android:textSize="18sp"
+            android:backgroundTint="#F48FB1"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botão: Pequeno Príncipe -->
+        <Button
+            android:id="@+id/btnPrincipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Pequeno Príncipe"
+            android:textSize="18sp"
+            android:backgroundTint="#CE93D8"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botão: Adicionar Nova História -->
+        <Button
+            android:id="@+id/btnNovaHistoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➕ Adicionar Nova História"
+            android:textSize="18sp"
+            android:backgroundTint="#A5D6A7"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+</ScrollView>

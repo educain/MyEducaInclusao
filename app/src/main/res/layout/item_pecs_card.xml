@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PECS"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Grid de Categorias -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true">
+
+            <!-- Botões PECS -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🍎 Quero Comer"
+                android:textSize="16sp"
+                android:backgroundTint="#FFCC80"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🥤 Quero Beber"
+                android:textSize="16sp"
+                android:backgroundTint="#81D4FA"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🧸 Quero Brincar"
+                android:textSize="16sp"
+                android:backgroundTint="#F8BBD0"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🚻 Ir ao Banheiro"
+                android:textSize="16sp"
+                android:backgroundTint="#90CAF9"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🛌 Quero Dormir"
+                android:textSize="16sp"
+                android:backgroundTint="#CE93D8"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🚶‍♂️ Quero Passear"
+                android:textSize="16sp"
+                android:backgroundTint="#A5D6A7"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="📺 Quero Ver TV"
+                android:textSize="16sp"
+                android:backgroundTint="#FFF176"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="🎶 Quero Ouvir Música"
+                android:textSize="16sp"
+                android:backgroundTint="#F48FB1"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="💬 Quero Falar"
+                android:textSize="16sp"
+                android:backgroundTint="#E0E0E0"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:text="➕ Adicionar Categoria"
+                android:textSize="16sp"
+                android:backgroundTint="#A5D6A7"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

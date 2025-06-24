@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configurações do Perfil"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Notificações -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notificações:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radioNotificacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioAtivar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ativar" />
+
+            <RadioButton
+                android:id="@+id/radioDesativar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desativar" />
+        </RadioGroup>
+
+        <!-- Botão Trocar Senha -->
+        <Button
+            android:id="@+id/btnTrocarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔑 Trocar Senha"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#81D4FA"
+            android:textColor="#000000" />
+
+        <!-- Botão Preferências de Visualização -->
+        <Button
+            android:id="@+id/btnPreferencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎨 Preferências de Visualização"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFD54F"
+            android:textColor="#000000" />
+
+        <!-- Botão Sair da Conta -->
+        <Button
+            android:id="@+id/btnSairConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚪 Sair da Conta"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#E57373"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="mood_options">
+        <item>Feliz</item>
+        <item>Calmo</item>
+        <item>Triste</item>
+        <item>Irritado</item>
+        <item>Ansioso</item>
+        <item>Outro</item>
+    </string-array>
+</resources>

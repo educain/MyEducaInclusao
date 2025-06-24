@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTituloHumor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Como você está se sentindo hoje?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Opções de humor com botões ou imagens -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnFeliz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😊 Feliz"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnAnsioso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😟 Ansioso"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnIrritado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😠 Irritado" />
+        </LinearLayout>
+
+        <!-- Campo de Observações -->
+        <EditText
+            android:id="@+id/edtObservacoes"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:drawable/edit_text"
+            android:gravity="top|start"
+            android:hint="Observações..."
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
